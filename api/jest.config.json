@@ -1,0 +1,9 @@
+{
+  "bail": 0,
+  "verbose": true,
+  "runner": "jest-runner",
+  "maxWorkers": "50%",
+  "globals": {},
+  "automock": false,
+  "clearMocks": true
+}
