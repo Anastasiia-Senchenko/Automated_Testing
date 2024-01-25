@@ -5,6 +5,7 @@ const Waits = require('./helpers/waits');
 const constants = require('./helpers/constants');
 const MainPage = require('./page-objects/mainPage');
 const PastebianCaretedPostPage = require('./page-objects/pastebianCreatedPostPage');
+const apiTestBooks = require('./testdata/apiTestBooks.json');
 
 module.exports = {
   BasePage,
@@ -13,5 +14,6 @@ module.exports = {
   Waits,
   constants,
   MainPage,
-  PastebianCaretedPostPage
-}
+  PastebianCaretedPostPage,
+  apiTestBooks
+};

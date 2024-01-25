@@ -1,0 +1,49 @@
+{
+  "schema": { 
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "pageCount": {
+      "type": "number"
+    },
+    "excerpt": {
+      "type": "string"
+    },
+    "publishDate": {
+      "type": "string"
+    }
+  }
+},
+"valideRequestBooks": {
+  "id": 1,
+  "title": "valid request",
+  "description": "test",
+  "pageCount": 1,
+  "excerpt": "first",
+  "publishDate": "2023-12-10T14:28:08.717Z"
+},
+"rewriteRequestBooks": {
+  "id": 1,
+  "title": "this request was rewrited for check PUT request",
+  "description": "test",
+  "pageCount": 1,
+  "excerpt": "first",
+  "publishDate": "2023-12-10T14:28:08.717Z"
+},
+"invalidRequestBooks": {
+  "id": 10000000000,
+  "title": "1",
+  "description": "0",
+  "pageCount": 0,
+  "excerpt": "0",
+  "publishDate": "2023-12-10T14:28:08.717Z"
+}
+}
